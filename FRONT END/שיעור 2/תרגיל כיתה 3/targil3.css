@@ -1,0 +1,18 @@
+h1 {
+	font-size: 80px;
+	font-style: italic;
+	font-weight: 800;
+}
+p {
+	font-family: Arial, Geneva, sans-serif;
+	font-size: 3em;
+}
+.even {
+	font-size: 20px;
+}
+.fiveandten {
+	font-weight: bold;
+}
+.threeandseven {
+	font-weight: 900;
+}

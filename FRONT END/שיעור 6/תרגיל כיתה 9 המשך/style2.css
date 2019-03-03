@@ -1,0 +1,16 @@
+h1 {
+	color:red;
+	text-align: center;
+	font-size: 60px;
+}
+
+table {
+	font-size: 34px;
+	border-collapse: collapse;
+	width: 95%;
+}
+
+th, td {
+	border: 3px solid red;
+	width:25%;
+}

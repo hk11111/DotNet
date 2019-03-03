@@ -1,0 +1,115 @@
+מה נעשה בקורס -
+HTML / CSS
+JavaScript
+Angular
+
+HTML - שפה סטטית
+CSS - שפה עיצובית
+
+
+HTML - שפת תגיות
+תגית - 
+< שם >
+
+</ שם >
+
+מבנה בסיסי לדף HTML:
+
+<html>
+	<head>
+
+	</head>
+
+	<body>
+		
+	</body>
+</html>
+
+שמירת קובץ HTML - "name.html"
+
+תגיות - יש מספר סופי
+
+תגית P - פיסקה.
+<p>    </p>
+
+תגית br - 
+break - תגית ירידת שורה
+<br>
+
+
+תרגיל כיתה 1 - 
+http://www.asmarterwaytolearn.com/htmlcss/2.html
+
+תגית H - תגית כותרת
+H1 - H6
+<h1> - כותרת גדולה
+<h2> - כותרת קצת פחות גדולה
+...
+<h6> - כותרת הכי קטנה
+
+תרגיל כיתה 2 - 
+http://www.asmarterwaytolearn.com/htmlcss/3.html
+
+
+תרגיל ראשון:
+צרו עמוד אינטרנט, שיציג ב-3 שורות נפרדות, בכותרות בגדלים יורדים מהגדול לקטן, 
+את שמכם הפרטי, שם המשפחה, ועיר מגוריכם.
+אחריהם, בהפרש של 2 שורות, תופיע פסקה המתארת כיצד הגעתם היום לשיעור.
+
+
+CSS -
+Cascading Style Sheet
+אחראית על עיצוב העמוד
+
+החלת עיצוב על אלמנט בHTML -
+יבוצע בעזרת סימון האלמנט, פתחית סוגריים מסולסלים וסגירת סוגריים מסולסלים.
+בין הסוגריים יחול העיצוב הגרפי המבוקש, לדוגמא:
+
+p {
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+http://www.asmarterwaytolearn.com/htmlcss/4.html
+
+תגית link - מקשרת קובץ CSS לתוך קובץ הHTML
+תופיע בתוך תגית HEAD - לדוגמא:
+
+<head>
+<link rel="stylesheet" type=text/css" href="style.css">
+</head>
+
+http://www.asmarterwaytolearn.com/htmlcss/5.html
+
+שינוי גודל גופן
+font-size: 60px;
+
+http://www.asmarterwaytolearn.com/htmlcss/6.html
+
+
+
+
+
+תרגיל שני:
+נשתמש בעמוד האינטרנט שהכנו בתרגיל 1, הוסיפו לו תגית link בתוך תגית הhead, וקשרו אליו קובץ CSS עם הפרטים הבאים:
+שמכם הפרטי יהיה בגודל של 50 פיקסלים, ובפונט "Arial"
+שם המשפחה יהיה בגודל 70 פיקסלים, ובפונט "Tahoma"
+עיר המגורים תהיה בגודל 30 פיקסלים, ובפונט "Times New Roman"
+הפיסקה תהיה בגודל פי 2.2 מהגודל הסטנדרטי ובפונט "Georgia"
+לכל הפונטים יש לשים פונט גיבוי - Geneva, ומשפחת פונטים sans-serif.
+
+
+CSS CLASS - קלאס
+
+p.important {
+font-size: 80px;
+}
+
+
+http://www.asmarterwaytolearn.com/htmlcss/7.html
+
+קלאס ללא שיוך לאלמנט
+.imoprtant {
+font-size:70px;
+}
+
+http://www.asmarterwaytolearn.com/htmlcss/8.html

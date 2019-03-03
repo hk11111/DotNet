@@ -1,0 +1,28 @@
+http://www.asmarterwaytolearn.com/htmlcss/9.html
+
+http://www.asmarterwaytolearn.com/htmlcss/11.html
+
+http://www.asmarterwaytolearn.com/htmlcss/12.html
+
+
+letter-spacing: 0;
+word-spacing: 1em;
+line-height: 1.2em;
+
+http://www.asmarterwaytolearn.com/htmlcss/13.html
+
+text-align: left / right / center / justify
+
+http://www.asmarterwaytolearn.com/htmlcss/14.html
+
+margin: 2px 3px 0 5px;
+margin-top: 2px;
+margin-left margin-right margin-bottom;
+
+
+http://www.asmarterwaytolearn.com/htmlcss/16.html
+
+http://www.asmarterwaytolearn.com/htmlcss/17.html
+
+
+http://www.asmarterwaytolearn.com/htmlcss/18.html

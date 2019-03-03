@@ -1,0 +1,49 @@
+/* This is the body style */
+.main {
+	font-size: 3em;
+}
+
+/* This is the header style */
+.one {
+	width: 100%;
+	background-color:red;
+	margin: 0 auto 0 auto;
+	text-align:center;
+
+	
+}
+
+/* This is the left div style*/
+.two {
+	width: 40%;
+	float: left;
+	background-color:green;
+}
+
+/* This is the right div style*/
+.three {
+	width: 40%;
+	float: right;
+	background-color:blue;
+}
+
+/* This clears float*/
+.nowrap {
+	clear:both;
+}
+
+/* This is the bigger div style*/
+.four {
+	background-color:yellow;
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+/* This is the smaller div style*/
+.five {
+	background-color:pink;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	text-align:center;
+	z-index: -1;
+}	

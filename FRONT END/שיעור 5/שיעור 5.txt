@@ -1,0 +1,109 @@
+רשימות -
+2 סוגי רשימות :
+- רשימה מסודרת - Ordered List <ol>
+- רשימה לא מסודרת Unordered List <ul>
+
+איבר ברשימה - <li> - List Item
+
+
+<ol>
+	<li>סבון 	</li>
+	<li>מרכך </li>
+</ol>
+
+http://www.asmarterwaytolearn.com/htmlcss/37.html
+
+עיצוב רשימות -
+מעצבים בCSS
+ul {
+	margin: 10px;
+	text-size:30px;
+}
+
+ul {
+	list-style-position: outside; - ברירת מחדל
+}
+
+http://www.asmarterwaytolearn.com/htmlcss/38.html
+
+ul - 
+ul {
+	list-style-type: disc - ברירת מחדל / bullet / square / circle...
+}
+
+ul {
+	list-style-image: url("me.jpg");
+}
+
+ol - 
+ol {
+	list-style-type: decimal - ברירת מחדל / decimal-leading-zero / lower-alpha / upper-alpha / lower-roman / upper-roman;
+
+http://www.asmarterwaytolearn.com/htmlcss/39.html
+
+
+p {
+}
+
+p.special {
+}
+
+.special {
+}
+
+p#special {
+}
+
+#special {
+}
+
+div.special p{
+}
+
+ul#pic li img {
+}
+
+http://www.asmarterwaytolearn.com/htmlcss/40.html
+
+טבלאות -
+<table>
+	<tr>  (table row) - שורה בטבלה
+		<td> 1 </td> - עמודה בשורה
+		<td> 2 </td>
+		<td> 3 </td>
+	</tr>
+	<tr>
+		<td> 1 </td>
+		<td> 2 </td>
+		<td> 3 </td>
+	</tr>
+</table>
+
+http://www.asmarterwaytolearn.com/htmlcss/41.html
+
+כותרות בטבלה
+<table>
+	<tr> 
+		<th scope="col"> 1 </th>  - table heading
+		<th scope="col"> 2 </th>
+	</tr>
+	<tr>
+		<td> 1 </td>
+		<td> 2 </td>
+		<td> 3 </td>
+	</tr>
+</table>
+
+<table>
+	<tr> 
+		<th scope="row"> 1 </th>  - table heading
+		<td> 2 </td>
+	</tr>
+	<tr>
+		<th scope ="row"> 1 </th>
+		<td> 2 </td>
+		<td> 3 </td>
+	</tr>
+</table>
+
+http://www.asmarterwaytolearn.com/htmlcss/42.html

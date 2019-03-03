@@ -1,0 +1,27 @@
+.header {
+width: 100%;
+text-align: center;
+position:fixed;
+top:0;
+left:0;
+background-color:pink;
+}
+.header a {
+color:gray;
+font-size: 30px;
+margin-left:30px;
+}
+.myH {
+margin-top:60px;
+font-size:80px;
+text-align: center;
+}
+table, th, td {
+border: 1px solid black;
+text-align: center;
+border-collapse: collapse;
+font-size:24px;
+}
+.myTable {
+margin: auto auto auto auto;
+}

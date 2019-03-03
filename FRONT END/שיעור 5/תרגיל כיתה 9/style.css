@@ -1,0 +1,26 @@
+h1 {
+	color:red;
+	text-align: center;
+}
+
+body {
+	font-size: 24px;
+}
+
+ul.square {
+	list-style-type: lower-alpha;
+}
+
+ul.uproman {
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+ul.loweralpha {
+	list-style-type: lower-alpha;
+}
+
+ul.loweralpha li {
+	font-size:2em;
+	color:blue;
+}

@@ -1,0 +1,17 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<script>
+			var text = prompt("Enter a description of your favorite pizza place");
+			for (var i=0; i<text.length ; i++) {
+				if (text.slice(i, i+ 9) === "pizza hut") {
+					text = text.slice(0,i) + "dominos pizza" + text.slice(i +9);
+				}
+			}
+			alert(text);
+		</script>
+	</body>
+
+</html>

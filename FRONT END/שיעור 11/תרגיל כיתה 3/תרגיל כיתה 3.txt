@@ -1,0 +1,10 @@
+צרו עמוד HTML חדש.
+בהעלאת העמוד, המשתמש יתבקש להכניס טקסט המתאר את הפיצריה האהובה עליו.
+אם המשתמש מכניס את הטקטס "pizza hut" - שנו את הטקסט ל-"dominos pizza"
+הצג למשתמש את הטקסט המתוקן.
+
+דוגמא -
+"my favorite pizza place is pizza hut in Givaataim"
+מציגים - "my favorite pizza place is dominos pizza in Givaataim"
+
+בהצלחה.

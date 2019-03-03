@@ -1,0 +1,36 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<script>
+			var pick=prompt("Type 'time' for the time, 'reverse' to reverse a string or 'change' to change letters");
+			switch(pick) {
+				case "time": 
+				alert(Date());
+				break;
+				case "reverse":
+				var text = prompt("Enter some text");
+				alert(reverse(text));
+				break;
+				case "change":
+				var letters= prompt("Enter some letters");
+				alert(changeLetters(letters));
+				break;
+				default:
+				alert("Thank you for visiting!");
+			} 
+			function reverse(text) {
+				var revText="";
+				for (var i=text.length-1; i>-1; i--) {
+					revText+= text[i];
+				}
+				return revText;
+			}
+			function changeLetters(letters) {
+				letters = letters.replace(/a/g, 'z');
+				return letters;
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+h1 {
+	font-style: italic;
+}
+.center {
+	text-align: center;
+}
+.yellowborder {
+	border: 5px solid yellow;
+}
+.green {
+	font-size: 70px;
+	color: green;
+}
+.gray {
+	color: gray;
+}
+.fifty {
+	font-size: 50px;
+}
+.red {
+	font-size: 40px;
+	color: red;
+	letter-spacing: 5px;
+}
+.right {
+	text-align: right;
+}
+.arial {
+	font-family: Arial, David, serif;
+}
+.offset {
+	margin: 0 25% 0 25%;
+}	

@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+<body>
+	<h1 class="myH">My Headline</h1>
+	<div class="header">
+		<a href="https://www.amazon.com/">Amazon</a>
+		<a href="https://www.google.com/">Google</a>
+		<a href="https://www.youtube.com/">YouTube</a>
+		<a href="JavaScript:void(0);" onClick="alert(Date());">Show Time</a>
+	</div>
+	<div class="partTable">
+	<table class="myTable">
+		<tr>
+			<th>See time in different places</th>
+			<th>Adopt animals</th>
+			<th>Play the guessing game</th>
+		</tr>
+		<tr>
+			<td><a href="JavaScript:void(0);" onClick="var date=new Date();alert(new Date(date.getFullYear(), date.getMonth(), date.getDate(), (date.getHours()-2), 			date.getMinutes(), date.getSeconds()));">Time in London</a> </td>
+			<td><img src="https://dogzone-tcwebsites.netdna-ssl.com/wp-content/uploads/2015/09/labrador-retriever-thumb.jpg" hieght="200px" width="200px" onClick="alert('Golden retriever, age 3, loves the beach');"></img></td>
+			<td><input type="button" value="pick number" onClick="rand=Number(prompt('Pick a number'));"> </td>
+		</tr>
+		<tr>
+			<td><a href="JavaScript:void(0);" onClick="var date=new Date();alert(new Date(date.getFullYear(), date.getMonth(), date.getDate(), (date.getHours()-7), date.getMinutes(), date.getSeconds()));">Time in New-York</a> </td>
+			<td><img src="https://www.winnipeghumanesociety.ca/wp-content/uploads/2015/03/cat-on-phone1-200x200.png" hieght="200px" width="200px" onClick="alert('Mitzi, loves being angry and sleeping all day');"></img> </td>
+			<td><input type="button" value="start game" onClick="game();"> </td>
+		</tr>
+	</table>
+	</div>
+<script>
+	var rand = Math.random();
+	rand = (rand * 100) + 1;
+	rand = Math.floor(rand);
+	function game() {
+		var text = "";
+		var won=false;
+		for (var i = 0; i < 5 ; i++) {
+			text = prompt("Enter a number");
+			if (Number(text) === rand) {
+				alert("You won!");
+				won = true;
+				break;
+			}
+			if (Number(text) > rand) {
+			alert("Aim lower");
+			} else 
+			alert("Aim higher");
+		}
+		if (!won)
+		alert("Try again next time");
+		}
+</script>
+</body>
+</html>

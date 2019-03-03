@@ -1,0 +1,17 @@
+<html>
+<body>
+<form>
+Favorite pizza place:<br>
+<input type="text" id="pizzeria" onBlur="changePizza();"><br>
+</form>
+<script>
+function changePizza() {
+var pizzaEntered = document.getElementById("pizzeria").value;
+if (pizzaEntered === "pizza hut") 
+document.getElementById("pizzeria").value = "dominos pizza";
+else
+document.getElementById("pizzeria").value = "pizza moshe";
+}
+</script>
+</body>
+</html>

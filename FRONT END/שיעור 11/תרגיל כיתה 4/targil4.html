@@ -1,0 +1,18 @@
+<html>
+	<head>
+	</head>
+
+	<body>
+		<script>
+			var text = "";
+			var fullText = "";
+			for (var i =0; i<10 && text !== "." ; i++) {
+				text = prompt("Enter a letter");
+				fullText += text;
+			}
+			fullText = fullText.replace(/a/g, 'b');
+			fullText = fullText.replace(/c/g, 'd');
+			alert(fullText);
+		</script>
+	</body>
+</html>
